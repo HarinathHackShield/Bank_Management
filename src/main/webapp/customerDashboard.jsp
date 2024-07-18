@@ -26,7 +26,7 @@ body {
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	padding: 30px;
-	max-width: 500px;
+	max-width: 700px;
 	width: 100%;
 	text-align: center;
 }
@@ -57,7 +57,7 @@ form {
 
 button, a {
 	display: block;
-	padding: 12px 20px;
+	padding: 18px 20px;
 	background-color: #3498db;
 	color: #fff;
 	border-radius: 5px;
@@ -119,7 +119,7 @@ button:hover, a:hover {
 			</li>
 			<li>
 				<form action="logout.jsp" method="get">
-					<button type="submit">Logout</button>
+					<button style="background-color: red" type="submit">Logout</button>
 				</form>
 			</li>
 		</ul>

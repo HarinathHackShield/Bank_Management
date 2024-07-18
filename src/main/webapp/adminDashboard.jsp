@@ -32,7 +32,7 @@ nav {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
 	padding: 20px;
-	width: 300px;
+	width: 700px;
 	text-align: center;
 }
 
@@ -50,14 +50,16 @@ button {
 	color: #fff;
 	border: none;
 	border-radius: 5px;
-	padding: 10px 20px;
+	padding: 15px 90px;
 	font-size: 16px;
 	cursor: pointer;
 	transition: background-color 0.3s ease;
 }
 
 button:hover {
-	background-color: #0056b3;
+	background-color: #0056b3; /* Darker blue on hover */
+	transform: translateY(-2px); /* Lift the button on hover */
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
 }
 
 a {
@@ -99,7 +101,7 @@ a:hover {
 			</li>
 			<li>
 				<form action="logout.jsp" method="get">
-					<button type="submit">Logout</button>
+					<button style="background-color: red" type="submit">Logout</button>
 				</form>
 			</li>
 		</ul>

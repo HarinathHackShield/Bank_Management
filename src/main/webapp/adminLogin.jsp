@@ -20,7 +20,7 @@ body {
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	border-radius: 8px;
 	padding: 20px;
-	width: 300px;
+	width: 500px;
 	text-align: center;
 }
 
@@ -38,7 +38,7 @@ label {
 
 input[type="text"], input[type="password"] {
 	width: calc(100% - 20px);
-	padding: 10px;
+	padding: 15px;
 	margin-bottom: 15px;
 	border: 1px solid #ccc;
 	border-radius: 5px;
@@ -58,7 +58,9 @@ button {
 }
 
 button:hover {
-	background-color: #0056b3;
+		background-color: #0056b3; /* Darker blue on hover */
+	transform: translateY(-2px); /* Lift the button on hover */
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
 }
 
 .error {
